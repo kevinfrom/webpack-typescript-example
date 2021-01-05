@@ -18,6 +18,13 @@ When developing, all typescript must go into the `src/index.ts` file, either dir
 | build:prod | Webpack bundles the project for production. | `npm run build:prod` |
 | watch | Webpack watches for changes and bundles the project for development. | `npm run watch` |
 | serve | Webpack starts a dev server on port 8080, serving content from the `/dist` directory. | `npm run serve` | 
+| test | Runs jest testing, using tests provided in `/src/test` directory. | `npm run test` |
+
+### Testing
+
+In the `src/test/sayHello.test.ts` you will find two prebuilt tests for the `sayHi()` function from the `src/utilities.ts` file.
+
+Tests are ran using `jest`.
 
 ### Author
 

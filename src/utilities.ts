@@ -1,3 +1,3 @@
 export const sayHi = () => {
-    alert('Hello World!')
+    console.log('Hello World!')
 }

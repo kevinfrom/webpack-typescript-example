@@ -8,7 +8,7 @@ module.exports = (env, argv) => {
         entry: './src/index.ts',
         module: {
             rules: [{
-                test: /\.ts$/i,
+                test: /(?<!\.test)\.ts$/i,
                 use: 'ts-loader',
                 include: [path.resolve(__dirname, 'src')]
             }, ]
