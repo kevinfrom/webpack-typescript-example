@@ -1,0 +1,31 @@
+{
+  "name": "webpack-typescript-example",
+  "version": "1.0.0",
+  "description": "A webpack with typescript/ts-loader config example",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "webpack --mode=development --progress",
+    "build:prod": "webpack --mode=production --progress",
+    "watch": "webpack --mode=development --watch --progress",
+    "serve": "webpack serve --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinfrom/webpack-typescript-example.git"
+  },
+  "keywords": [
+    "Webpack",
+    "typescript",
+    "example",
+    "config"
+  ],
+  "author": "Kevin From <kevinfrom@live.dk>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
