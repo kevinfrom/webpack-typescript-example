@@ -24,7 +24,7 @@ When developing, all typescript must go into the `src/index.ts` file, either dir
 
 In the `src/test/sayHello.test.ts` you will find two prebuilt tests for the `sayHi()` function from the `src/utilities.ts` file.
 
-Tests are ran using `jest`.
+Tests are ran using [jest](https://jestjs.io).
 
 ### Author
 
